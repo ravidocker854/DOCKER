@@ -2,6 +2,7 @@ How to manually commit docker images from docker container
 
 docker pull centos
 docker run -ti centos bash ( A small change , instead of centos , please use rockylinux)
+docker pull rockylinux 
 docker run -ti rockylinux bash 
 
 Try to install rocky linux image and go inside container and try to install httpd package it works ,currently we are unable to install httpd package in centos its throwing ( Error: Failed to download metadata for repo 'appstream': Cannot prepare internal mirrorlist: No URLs in mirrorlist)
